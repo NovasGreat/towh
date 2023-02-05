@@ -1,0 +1,68 @@
+[02:54:12] [main/INFO]: Using mbed TLS based native cipher.
+[02:54:12] [main/INFO]: Using zlib based native compressor.
+[02:54:12] [main/INFO]: Enabled Waterfall version git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:13085b9:510
+[02:54:13] [main/INFO]: Not on Windows, attempting to use enhanced EpollEventLoop
+[02:54:14] [main/INFO]: Epoll is working, utilising it!
+[02:54:17] [main/INFO]: Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+[02:54:17] [main/INFO]: Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+[02:54:17] [main/INFO]: Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+[02:54:17] [main/INFO]: Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+[02:54:17] [main/INFO]: Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+[02:54:17] [main/INFO]: Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+[02:54:18] [main/INFO]: Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:13085b9:510 by WaterfallMC
+[02:54:18] [main/INFO]: Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:13085b9:510 by WaterfallMC
+[02:54:18] [main/INFO]: Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:13085b9:510 by WaterfallMC
+[02:54:18] [main/INFO]: Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:13085b9:510 by WaterfallMC
+[02:54:18] [main/INFO]: Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:13085b9:510 by WaterfallMC
+[02:54:18] [main/INFO]: Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:13085b9:510 by WaterfallMC
+[02:54:19] [main/INFO] [EaglercraftXBungee]: Loading vanilla profile: lax1dude
+[02:54:26] [main/WARN] [EaglercraftXBungee]: Profile load timed out
+[02:54:26] [main/INFO]: Loaded plugin EaglercraftXBungee version 1.0.4 by lax1dude
+[02:54:27] [main/WARN]: Forced host server pvp is not defined
+[02:54:27] [main/INFO]: Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:13085b9:510 by WaterfallMC
+[02:54:27] [main/INFO]: Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:13085b9:510 by WaterfallMC
+[02:54:27] [main/INFO]: Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:13085b9:510 by WaterfallMC
+[02:54:27] [main/INFO]: Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:13085b9:510 by WaterfallMC
+[02:54:27] [main/INFO]: Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:13085b9:510 by WaterfallMC
+[02:54:27] [main/INFO]: Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:13085b9:510 by WaterfallMC
+[02:54:27] [main/ERROR] [EaglercraftXBungee]: Online mode is set to false! Authentication system has been disabled
+[02:54:27] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: Eaglercraft is listening on: /0.0.0.0:8081
+[02:54:31] [main/INFO] [EaglercraftXBungee]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+[02:54:31] [main/INFO]: Enabled plugin EaglercraftXBungee version 1.0.4 by lax1dude
+[02:54:31] [Skin Download Thread #1/INFO] [EaglercraftXBungee]: Loaded vanilla profile: lax1dude
+[02:54:31] [Netty Boss IO Thread #0/INFO]: Listening on /127.0.0.1:25577
+[03:01:18] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/172.31.128.1:60620]: Connected via websocket
+[03:01:18] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/172.31.128.1:60620]: Origin header is https://salogenx.vercel.app
+[03:01:18] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/172.31.128.1:60620]: Logged in as 'novsa'
+[03:01:18] [Netty Worker IO Thread #1/INFO]: [/172.31.128.1:60620|novsa] -> UpstreamBridge has connected
+[03:01:19] [Netty Worker IO Thread #1/WARN]: Event LoginEvent(cancelled=false, cancelReasonComponents=null, loginResult=null, connection=[/172.31.128.1:60620|novsa] <-> InitialHandler) took 687ms to process!
+[03:01:19] [Netty Worker IO Thread #1/WARN]: Event PreLoginEvent(cancelled=false, cancelReasonComponents=null, connection=[/172.31.128.1:60620|novsa] <-> InitialHandler) took 693ms to process!
+[03:01:19] [Netty Worker IO Thread #1/INFO]: [novsa|/172.31.128.1:60620] <-> ServerConnector [lobby] has connected
+[03:04:41] [Netty Worker IO Thread #1/WARN] [EaglercraftXBungee]: Server icon is not a file: /home/runner/salogenx-v2/bungee/server-icon.png
+[03:15:43] [Netty Worker IO Thread #1/INFO]: [/172.31.128.1:60620|novsa] -> UpstreamBridge has disconnected
+[03:15:43] [Netty Worker IO Thread #1/INFO]: [novsa] disconnected with: Proxy lost connection to server.
+[03:15:43] [Netty Worker IO Thread #1/INFO]: [/172.31.128.1:60620|novsa] <-> DownstreamBridge <-> [lobby] has disconnected
+[03:23:02] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/172.31.128.1:33654]: Connected via websocket
+[03:23:02] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/172.31.128.1:33654]: Origin header is https://salogenx.vercel.app
+[03:23:02] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/172.31.128.1:33654]: Logged in as 'novsa'
+[03:23:02] [Netty Worker IO Thread #1/INFO]: [/172.31.128.1:33654|novsa] -> UpstreamBridge has connected
+[03:23:02] [Netty Worker IO Thread #1/INFO]: [novsa|/172.31.128.1:33654] <-> ServerConnector [lobby] has connected
+[03:24:18] [Netty Worker IO Thread #1/INFO]: [novsa] disconnected with: Proxy lost connection to server.
+[03:24:18] [Netty Worker IO Thread #1/INFO]: [/172.31.128.1:33654|novsa] <-> DownstreamBridge <-> [lobby] has disconnected
+[03:24:18] [Netty Worker IO Thread #1/INFO]: [/172.31.128.1:33654|novsa] -> UpstreamBridge has disconnected
+[03:34:54] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/172.31.128.1:36542]: Connected via websocket
+[03:34:54] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/172.31.128.1:36542]: Origin header is https://salogenx.vercel.app
+[03:34:54] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/172.31.128.1:36542]: Logged in as 'novsa'
+[03:34:54] [Netty Worker IO Thread #0/INFO]: [/172.31.128.1:36542|novsa] -> UpstreamBridge has connected
+[03:34:55] [Netty Worker IO Thread #0/INFO]: [novsa|/172.31.128.1:36542] <-> ServerConnector [lobby] has connected
+[03:35:56] [Netty Worker IO Thread #0/INFO]: [/172.31.128.1:36542|novsa] -> UpstreamBridge has disconnected
+[03:35:56] [Netty Worker IO Thread #0/INFO]: [novsa] disconnected with: Proxy lost connection to server.
+[03:35:56] [Netty Worker IO Thread #0/INFO]: [/172.31.128.1:36542|novsa] <-> DownstreamBridge <-> [lobby] has disconnected
+[03:48:23] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/172.31.128.1:50442]: Connected via websocket
+[03:48:23] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/172.31.128.1:50442]: Origin header is https://inexpensive-smart-girl.glitch.me
+[03:48:23] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/172.31.128.1:50442]: Logged in as 'DarvlerEagler207'
+[03:48:23] [Netty Worker IO Thread #1/INFO]: [/172.31.128.1:50442|DarvlerEagler207] -> UpstreamBridge has connected
+[03:48:23] [Netty Worker IO Thread #1/INFO]: [DarvlerEagler207|/172.31.128.1:50442] <-> ServerConnector [lobby] has connected
+[04:01:31] [Netty Worker IO Thread #1/INFO]: [/172.31.128.1:50442|DarvlerEagler207] -> UpstreamBridge has disconnected
+[04:01:31] [Netty Worker IO Thread #1/INFO]: [DarvlerEagler207] disconnected with: Proxy lost connection to server.
+[04:01:31] [Netty Worker IO Thread #1/INFO]: [/172.31.128.1:50442|DarvlerEagler207] <-> DownstreamBridge <-> [lobby] has disconnected
